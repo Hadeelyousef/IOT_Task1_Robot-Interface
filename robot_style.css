@@ -1,0 +1,161 @@
+
+body 
+{
+background: linear-gradient(to bottom right, #cc0066 0%, #33cccc 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+
+/* White background */
+.Border
+{
+width:320px;
+height:450px;
+border-color:white;
+background-color:white;
+margin: auto;
+box-shadow: 5px 0px 10px white;
+}
+
+/* To make white background in Center */
+.allincenter
+{
+margin-top:45px;
+}
+
+/* Smart Method Logo */
+img
+{
+width:180px;
+height:80px;
+margin-top:10px;
+margin-bottom:20px;
+}
+
+/* Margin of sliders */
+#margin{
+margin-top:1px;
+margin-left:10px;
+}
+
+/* To make Loge and sliders in the Center */
+.center
+{
+text-align: center;
+}
+
+/* Labels of Engines */
+label
+{
+	color:#b30059;
+}
+
+/* Span */
+span
+{
+color:#006666;	
+}
+
+/* SLIDERS */
+/*****************/
+
+.slidecontainer {
+width: 95%; 
+}
+
+/* The slider itself */
+.slider {
+-webkit-appearance: none;  
+appearance: none;
+width: 100%; 
+height: 15px; 
+background: #d3d3d3; 
+outline: none; 
+opacity: 0.7; 
+-webkit-transition: .2s; 
+transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+	opacity: 1; 
+}
+
+/* Sliders thumb */
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none; 
+appearance: none;
+width: 10px; 
+height: 20px; 
+background:#006666; 
+cursor: pointer; 
+}
+
+.slider::-moz-range-thumb 
+{
+width: 10px; 
+height: 20px; 
+background:#006666; 
+cursor: pointer; 
+}
+
+/*** Buttons ***/
+
+button
+{
+background-color:white; 
+color: #b30059; 
+border: none;
+font-size: 16px;
+cursor: pointer;
+
+}
+
+.button
+{
+background-color:white; 
+color: #b30059; 
+border: none;
+font-size: 16px;
+cursor: pointer;
+}
+
+#buttonmargin
+{
+margin:auto;
+margin-top:5px;
+}
+
+#btnsave
+{
+height:35px;
+width:320px;
+color:#006666;
+}
+/* Run and Stop buttons */
+
+#btn
+{
+height:35px;
+width:150px;
+}
+
+#buttonmarrunstop
+{
+margin:auto;
+margin-top:-11px;
+}
+
+button:hover 
+{
+	background-color: #e60073;
+	opacity: 0.8;
+}
+
+.button:hover 
+{
+	background-color: #008080;
+	opacity: 0.8;
+}
+

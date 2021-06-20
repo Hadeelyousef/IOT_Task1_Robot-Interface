@@ -10,4 +10,4 @@
 
 **robot_arm.sql:** which is a database file.
 
-- It also contains a picture of the interface.
+- It also contains a picture of the interface and a video showing how it works.

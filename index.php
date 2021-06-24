@@ -83,7 +83,7 @@ elseif(isset($_POST['stop'])){
 </div>
 
 <!-- Sliders --> 
-<form action ="Robot_Arm Interface.php" method ="post">
+<form action ="index.php" method ="post">
 
 <div id="margin">
 <label><b> Motor 1:</label> <span id="demo"></span> 
